@@ -66,13 +66,66 @@
         console.log("a" == "a"); //true
         console.log("a" == true); //false
 
-        // не строгое сравнение (===)
+        // строгое сравнение (===)
         console.log(1 === 1); //true
         console.log("1" === 1); //false
         console.log(1 === true); //false
         console.log("true" === true); //false
 
         // логические операторы
+
+        // || (или) | истина
+
+        console.log( 1 || 0); //1
+        console.log(0 || 2); //2
+        console.log(true || 1); //true
+        console.log(0 || false || "" || null  ); //null
+        console.log(0 || false || undefined || null || "" ); // ""
+
+        //&& (И) & ищет ложь
+        console.log(1 && 2); //2
+        console.log(0 && true && 1); //0
+        console.log(1 && true && "a"); //"a"
+        console.log(5 && 4); //4
+
+        // ! (НЕ)
+        console.log(!true); //false
+        console.log(!1); //false
+        console.log(!false); //true
+        console.log(!""); //false
+       
+        // Условное ветвление if ... else
+        // if(0){ // тут не выполнит код иак как 0 - ложь
+        //     alert(123)
+        // }
+
+        // if(1){ // тут выполнит потому что 1 - истина
+        //     alert(123)
+        // }
+
+        let age = 20
+
+        if(age == 25){
+            alert("молодец")
+        }
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
 
 
 
